@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config = {
   title: '@noodl/core',
   tagline: 'Neural Object Oriented Dynamic Language',
-  url: 'https://aitmed.com',
+  url: 'https://whimsical-biscuit-79e35c.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
