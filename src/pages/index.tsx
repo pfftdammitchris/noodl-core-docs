@@ -29,10 +29,7 @@ function HomepageHeader() {
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext()
   return (
-    <Layout
-      title={`${siteConfig.title}`}
-      description="@noodl/core documentation"
-    >
+    <Layout title={`${siteConfig.title}`} description="@noodl/core">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

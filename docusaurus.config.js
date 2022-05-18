@@ -25,8 +25,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'http://gitlab.aitmed.com/pfftdammitchris/aitmed-noodl-web.git',
+          // editUrl:
+          // 'http://gitlab.aitmed.com/pfftdammitchris/aitmed-noodl-web.git',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
