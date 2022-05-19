@@ -1,6 +1,4 @@
 ---
-id: usage
-sidebar_position: 2
 title: Usage
 tags:
   - usage

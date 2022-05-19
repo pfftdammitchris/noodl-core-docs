@@ -1,10 +1,8 @@
 ---
-id: installation
-sidebar_position: 1
 title: Installation
-tags:
-  - installation
 ---
+
+## Installation
 
 ```bash
 npm install @noodl/core

@@ -1,7 +1,5 @@
 ---
-id: api-reference
-sidebar_position: 4
-title: API Reference
+title: API
 tags:
   - api
   - reference

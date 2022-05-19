@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config = {
   title: '@noodl/core',
   tagline: 'Neural Object Oriented Dynamic Language',
-  url: 'https://whimsical-biscuit-79e35c.netlify.app/',
+  url: 'https://noodljs.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -47,21 +47,25 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'installation',
+            docId: 'Introduction/Installation',
             position: 'left',
-            label: 'Installation',
+            label: 'Introduction',
           },
           {
             type: 'doc',
-            docId: 'usage',
-            position: 'left',
-            label: 'Usage',
-          },
-          {
-            type: 'doc',
-            docId: 'api-reference',
+            docId: 'Reference/Api',
             position: 'left',
             label: 'API Reference',
+          },
+          {
+            type: 'doc',
+            docId: 'Handbook',
+            position: 'left',
+          },
+          {
+            type: 'doc',
+            docId: 'Plugins',
+            position: 'left',
           },
           {
             href: 'https://aitmed.com',
@@ -73,7 +77,7 @@ const config = {
       footer: {
         style: 'dark',
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} @noodl/core documentation`,
+        copyright: `Copyright © ${new Date().getFullYear()} @noodl/core`,
       },
       prism: {
         theme: lightCodeTheme,

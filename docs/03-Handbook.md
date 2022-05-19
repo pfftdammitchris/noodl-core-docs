@@ -1,7 +1,4 @@
 ---
-id: noodl-handbook
-sidebar_position: 3
-title: The NOODL Handbook
 tags:
   - handbook
   - terms

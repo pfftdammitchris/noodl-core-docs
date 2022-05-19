@@ -1,6 +1,4 @@
 ---
-id: plugins
-sidebar_position: 4
 title: Plugins
 tags:
   - plugins
