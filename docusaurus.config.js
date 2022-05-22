@@ -4,7 +4,7 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
-/** @type {import('@docusaurus/types').DocusaurusConfig } */
+/** @type { import('@docusaurus/types').DocusaurusConfig } */
 const config = {
   title: '@noodl/core',
   tagline: 'Neural Object Oriented Dynamic Language',
@@ -47,25 +47,21 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'Introduction/Installation',
+            docId: 'introduction',
             position: 'left',
             label: 'Introduction',
           },
           {
             type: 'doc',
-            docId: 'Reference/Api',
+            docId: 'api/modules',
             position: 'left',
             label: 'API Reference',
           },
           {
             type: 'doc',
-            docId: 'Handbook',
+            docId: 'handbook',
             position: 'left',
-          },
-          {
-            type: 'doc',
-            docId: 'Plugins',
-            position: 'left',
+            label: 'Handbook',
           },
           {
             href: 'https://aitmed.com',

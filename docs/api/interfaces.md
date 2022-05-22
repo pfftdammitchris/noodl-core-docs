@@ -1,3 +1,7 @@
+---
+title: Interfaces
+---
+
 ## Builder
 
 ```ts
@@ -14,3 +18,7 @@ class Builder {
   use(value: AIterator | ARoot | AVisitor): this
 }
 ```
+
+## RootConfig
+
+## AppConfig

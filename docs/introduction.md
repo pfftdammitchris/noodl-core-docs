@@ -1,8 +1,7 @@
 ---
+slug: introduction
 title: Introduction
 ---
-
-# Introduction
 
 > Note: @noodl/core is currently in early development and APIs and packages are likely to change quite often.
 

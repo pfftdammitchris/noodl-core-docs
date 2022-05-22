@@ -1,11 +1,9 @@
 ---
-title: API
+title: Modules
 tags:
   - api
   - reference
-  - diagnostics
----
-
+  - modules
 ---
 
 ## Modules

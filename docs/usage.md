@@ -1,8 +1,11 @@
 ---
+slug: usage
 title: Usage
-tags:
-  - usage
 ---
+
+```bash
+npm install @noodl/core
+```
 
 ## Diagnostics
 
