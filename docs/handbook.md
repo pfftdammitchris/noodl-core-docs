@@ -8,17 +8,13 @@ tags:
   - explanations
 ---
 
-## References
+llo: 7/32
 
-| Symbol | Description |
-| ------ | ----------- |
-| `.`    | Merge       |
-| `=`    | Evolve      |
-| `@`    | Await       |
-| `_.`   | Traverse    |
-| `~`    | Tilde       |
+## Operations
 
-Some of these characters can be combined to form certain patterns that incorporate additional behavior.
+### Basic
+
+#### Inheritance
 
 ### Root Merge
 
@@ -51,6 +47,154 @@ const reference = '..params.url'
   "link": "..params.url"
 }
 ```
+
+#### Extension
+
+> Pattern: `.a: ""`
+
+#### Examples
+
+```js
+const profile = {
+  avatar: 'abc.png',
+  name: {
+    first: 'Bob',
+    last: 'Gonzalez',
+  },
+}
+```
+
+```json
+{
+  ".profile": ""
+}
+```
+
+> Result
+
+```json
+
+```
+
+#### Override
+
+> Pattern: `@`
+
+#### Examples
+
+> Example 1
+
+```js
+const reference = '..facility.id@'
+```
+
+```json
+{
+  "..facility.id@": "TzN1z0osjakzxa_a31zmk3902akklz=-"
+}
+```
+
+> Example 2
+
+Input:
+
+```js
+const facilityId = 'TzN1z0osjakzxa_a31zmk3902akklz=-'
+const root = {
+  Organization: {
+    facility: {
+      info: '',
+    },
+  },
+}
+const obj = {
+  '..facility.info@': {
+    fruit: 'apple',
+    age: 40,
+  },
+}
+```
+
+Output:
+
+```json
+{
+  "Organization": {
+    "facility": {
+      "info": {
+        "fruit": "apple",
+        "age": 40
+      }
+    }
+  }
+}
+```
+
+> Example 3
+
+Input:
+
+```js
+const facilityId = 'TzN1z0osjakzxa_a31zmk3902akklz=-'
+const root = {
+  Organization: {
+    facility: {
+      info: '',
+    },
+  },
+}
+const obj = {
+  '..facility.info@': {
+    fruit: 'apple',
+    age: 40,
+  },
+}
+```
+
+Output:
+
+```json
+{
+  "Organization": {
+    "facility": {
+      "info": {
+        "fruit": "apple",
+        "age": 40
+      }
+    }
+  }
+}
+```
+
+#### Evaluation
+
+#### If/Else
+
+#### Goto
+
+### Organic
+
+#### Evolve
+
+#### Elite
+
+#### Convolve
+
+#### Emit
+
+---
+
+## References
+
+| Symbol | Description       |
+| ------ | ----------------- |
+| `.`    | Merge/Inheritance |
+| `=`    | Evolve            |
+| `@`    | Await             |
+| `_.`   | Traverse          |
+| `~`    | Tilde             |
+
+Some of these characters can be combined to form certain patterns that incorporate additional behavior.
 
 ### Root evolve
 
@@ -85,20 +229,6 @@ const reference = '=..params.url'
 ```
 
 ### Await
-
-> Pattern: `@`
-
-#### Examples
-
-```js
-const reference = '..facility.id@'
-```
-
-```json
-{
-  "..facility.id@": "TzN1z0osjakzxa_a31zmk3902akklz=-"
-}
-```
 
 ### Traverse
 

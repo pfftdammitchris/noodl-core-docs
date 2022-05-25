@@ -14,8 +14,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        It's super easy to get started with @noodl/core in any environment.
-        @noodl/core is framework agnostic, but provides a set of bindings for to
+        It's super easy to get started with noodl-core in any environment.
+        noodl-core is framework agnostic, but provides a set of bindings for to
         help you get off the ground even quicker.
       </>
     ),
@@ -25,9 +25,9 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        @noodl/core exposes a set of individual, modular packages that is used
-        to build and validate noodl application development such as the
-        Diagnostics module.
+        noodl-core exposes a set of individual, modular packages that is used to
+        build and validate noodl application development such as the Diagnostics
+        module.
       </>
     ),
   },
@@ -36,9 +36,9 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        @noodl/core is a zero dependency JavaScript library built with a plugin
-        system in mind. Extend the core with custom bindings. See @noodl/yaml
-        for an example.
+        noodl-core is a zero dependency JavaScript library built with a plugin
+        system in mind. Extend the core with custom bindings. See noodl-yaml for
+        an example.
       </>
     ),
   },

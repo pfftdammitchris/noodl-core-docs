@@ -4,13 +4,13 @@ title: Usage
 ---
 
 ```bash
-npm install @noodl/core
+npm install noodl-core
 ```
 
 ## Diagnostics
 
 ```js
-const n = require('@noodl/core')
+const n = require('noodl-core')
 const y = require('yaml')
 const _ = require('lodash')
 const fs = require('fs')

@@ -72,7 +72,7 @@ For example, the example below will trigger `DocDiagnostics` to visit the _prelo
 ```js
 const fs = require('fs-extra')
 const y = require('yaml')
-const { DocRoot, DocDiagnostics, DocVisitor } = require('@noodl/yaml')
+const { DocRoot, DocDiagnostics, DocVisitor } = require('noodl-yaml')
 
 const rootConfig = y.parse(fs.readFileSync('../admin.yml'))
 const appConfig = y.parse(fs.readFileSync('../cadlEndpoint.yml'))

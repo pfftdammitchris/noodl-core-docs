@@ -26,7 +26,7 @@
     "@tsconfig/docusaurus": "^1.0.5",
     "typescript": "^4.6.4"
   },
-  "name": "core-docs",
+  "name": "noodl-core-docs",
   "private": true,
   "repository": {
     "directory": "packages/core-docs",

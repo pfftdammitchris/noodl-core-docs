@@ -6,7 +6,7 @@ tags:
 
 ## Working with Plugins
 
-@noodl/core supports custom modules as plugins.
+noodl-core supports custom modules as plugins.
 
 To create a custom module, extend the abstract `Builder` class.
 
